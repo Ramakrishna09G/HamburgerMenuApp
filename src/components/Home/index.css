@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.hamburger-menu-bg-container {
+  height: 100vh;
+  width: 1550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hamburger-menu-container {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .hamburger-menu-container {
+    width: 780px;
+  }
+}
+
+.home-container {
+  margin-top: 10px;
+  width: 420px;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .home-container {
+    width: 780px;
+  }
+}
+.home-sm-img {
+  display: block;
+}
+@media (min-width: 768px) {
+  .home-sm-img {
+    display: none;
+  }
+}
+.home-lg-img {
+  display: none;
+}
+@media (min-width: 768px) {
+  .home-lg-img {
+    display: block;
+  }
+}
